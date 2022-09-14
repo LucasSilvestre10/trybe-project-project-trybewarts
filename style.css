@@ -2,6 +2,16 @@ div {
   border: solid black 1px;
 }
 
+form {
+  display: flex;
+  border: solid black 1px;
+  min-width: 675px;
+}
+
+main {
+  display: flex;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
