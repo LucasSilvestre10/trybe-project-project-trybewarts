@@ -1,6 +1,7 @@
 const trybeLogin = document.getElementById('trybeLogin');
 
 function validation() {
+  console.log('Chamou!');
   const login = document.getElementById('login').value;
   const password = document.getElementById('password').value;
   if (login === 'tryber@teste.com' && password === '123456') {
