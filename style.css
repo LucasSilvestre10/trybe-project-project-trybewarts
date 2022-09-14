@@ -1,3 +1,7 @@
+div {
+  border: solid black 1px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
