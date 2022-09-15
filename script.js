@@ -1,4 +1,7 @@
 const trybeLogin = document.getElementById('trybeLogin');
+// const checkValidation = document.getElementById('agreement');
+// let buttomChecked = document.getElementById('submit-btn').checked;
+// const buttomCheckedDisable = document.getElementById('submit-btn').disable;
 
 function validation() {
   console.log('Chamou!');
@@ -12,3 +15,8 @@ function validation() {
 }
 
 trybeLogin.addEventListener('click', validation);
+
+// function validationOnOff () {
+//   if (checkValidation !== true) {
+//     buttomChecked = true}
+// }
