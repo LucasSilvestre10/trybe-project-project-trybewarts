@@ -1,36 +1,197 @@
-div {
-  border: solid black 1px;
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(60, 60, 60);
 }
 
 form {
   display: flex;
-  border: solid black 1px;
-  min-width: 675px;
 }
 
 main {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .header {
+  color: white;
+  padding: 0 15px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(50, 167, 145);
 }
 
-img {
-  width: 100px;
+.nameLastNameEmailHouse {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameLastNameEmailHouse input {
+  border: none;
+  margin-bottom: 15px;
+  width: 315px;
+  height: 35px;
+  border-radius: 8px;
+  padding-left: 15px;
+}
+
+select {
+  border: none;
+  border-radius: 8px;
+  margin-left: 5px;
+  width: 292px;
+  height: 35px;
+  padding-left: 8px;
+  background-color: white;
+  color: rgb(60, 60, 60);
+}
+
+h1 {
+  margin: 15px 0%;
+  font-size: 35px;
+}
+
+
+.header img {
+  width: 55px;
+  padding: 10px 0%;
 }
 
 .trybewarts-login {
   display: flex;
+  justify-content: space-between;
+
+}
+
+#login {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#password {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#trybeLogin {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  font-weight: 800;
+  background-color: darkslategray;
 }
 
 #evaluation-form {
+  margin-top: 15px;
+  margin-bottom: 15px;
   flex-direction: column;
+  width: 675px;
+}
+
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-weight: 500;
+  font-size: large;
+  color: white;
+  letter-spacing: 1px;
+  background-color: darkslategray;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#ladoLado {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 35px 0%;
+}
+
+#qualSuaFamilia {
+  line-height: 25px;
+  width: 150px;
+}
+
+#label-family {
+  font-size: large;
+  font-weight: 500;
+  color: darkslategray;
+}
+
+#qualConteudo {
+  text-align: center;
+  line-height: 30px;
+  width: 450px;
+}
+
+#label-content {
+  font-size: large;
+  font-weight: 500;
+  color: darkslategray;
+}
+
+#avaliationTrybe {
+  margin-bottom: 40px;
+  line-height: 30px;
+  text-align: center;
+  background-color: rgb(210, 210, 210);
+  color: rgb(60, 60, 60);
+  border-radius: 8px;
+}
+
+#label-rate {
+  font-size: large;
+}
+
+.textarea {
+  font-size: 15px;
+  margin: 0% 10px;
+  margin-bottom: 5px;
+}
+
+#textarea {
+  padding: 10px;
+  margin: 0% 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#confirmationInfo {
+  font-style: oblique;
+  margin: 15px;
+}
+
+#submit-btn {
+  width: 100px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(50, 167, 145);
 }
