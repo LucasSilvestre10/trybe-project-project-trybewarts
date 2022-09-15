@@ -1,7 +1,7 @@
 const trybeLogin = document.getElementById('trybeLogin');
-// const checkValidation = document.getElementById('agreement');
-// let buttomChecked = document.getElementById('submit-btn').checked;
-// const buttomCheckedDisable = document.getElementById('submit-btn').disable;
+const checkValidation = document.getElementById('agreement');
+const buttomChecked = document.getElementById('submit-btn');
+buttomChecked.disabled = true;
 
 function validation() {
   console.log('Chamou!');
@@ -16,7 +16,11 @@ function validation() {
 
 trybeLogin.addEventListener('click', validation);
 
-// function validationOnOff () {
-//   if (checkValidation !== true) {
-//     buttomChecked = true}
-// }
+function validationOnOff() {
+  if (checkValidation.checked !== true) {
+    buttomChecked.disabled = true;
+  } else {
+    buttomChecked.disabled = false;
+  }
+}
+checkValidation.addEventListener('click', validationOnOff);
